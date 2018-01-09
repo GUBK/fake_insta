@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # 각종 중요한 정보들이 외부에 노출되지 않도록 관리해주는 gem
 gem 'figaro'
 
+# s3용 gem
+gem 'fog'
+
 # 회원 권한 기능
 gem 'cancancan', '~> 2.0'
 
